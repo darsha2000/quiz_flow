@@ -1,0 +1,45 @@
+<!-- 
+# Quiz-App
+
+Your task is to design and implement a Quiz application that meets the following requirements:
+
+- The UI should resemble the example shown [here](https://utfs.io/f/032c6baa-e76a-4e26-b6b2-f6a105c15f03-pym7du.webm)
+
+- display the result after submitting the quiz.
+
+- you don't need to use api or backend, use data mentioned in `data.js`
+
+
+### Don't copy UI as it is, only take reference from it. -->
+<html>
+    <link rel="stylesheet" href="style.css">   
+<body> 
+    <div id="qusandans">
+            <h1 id="question"></h1>
+            <div id="options">
+                <label>
+                <input type="radio" name="answer" value="a">
+                <span id="a_text"></span>
+                </label><br>
+                <label>
+                <input type="radio" name="answer" value="b">
+                <span id="b_text"></span>
+                </label><br>
+                <label>
+                <input type="radio" name="answer" value="c">
+                <span id="c_text"></span>
+                </label><br>
+                <label>
+                <input type="radio" name="answer" value="d">
+                <span id="d_text"></span>
+                </label><br>
+            </div>
+            <button id="submit" onclick="nextstep()">Submit</button>
+                
+            <!-- <button id="restart"></button> -->
+            </div>
+    </div>
+            
+<script type="module" src="./script.js"></script>
+</body>
+</html>
